@@ -9,6 +9,7 @@ def key_for_min_value(name_hash)
     next_smallest = v
     if smallest < next_smallest
       smallest = v
+      result = k
     end
   end
 end
