@@ -9,6 +9,9 @@ def key_for_min_value(name_hash)
       key = k
       value = v
     elsif v < value
+      key = k
+      value = v
+    end
   end
   key
 end
